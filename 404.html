@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>oops</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var path = window.location.pathname;
+            if (!path.endsWith(".html")) {
+                window.location.href = path + ".html";
+            }
+        });
+    </script>
 </head>
 <body>
     <h1>oops error 404</h1>
     <a href="index.html"><b>back</b></a>
     <style>
-        body{background-color: thistle;;}
+        body { background-color: thistle; }
     </style>
 </body>
 </html>
