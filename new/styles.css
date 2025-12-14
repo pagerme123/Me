@@ -1,0 +1,13 @@
+body{
+     background-image: url(Goth-Wallpaper-Desktop.jpg);
+}
+@font-face {
+    font-family: Dracutaz;
+    src: url(Dracutaz.otf);
+}
+h1{
+    color: #F9FFFE ;
+    font-family: Dracutaz;
+    text-align: center;
+    font-size: 50px;
+}
