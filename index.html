@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7F8CLH762Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7F8CLH762Y');
-</script>
-
-    <meta name="google-adsense-account" content="ca-pub-3964750032570442">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1> welcome to my site👋</h1>
-    <p>have a peek at my <em><b>projects</b></em></p>
-    <a href="projects.html">Projects</a>
-    <a href="photos.html">cool photos</a>
-    <a href="blog.html">blog</a>
+    <img id="face-top-left" src="face-top-left.jpg" alt="Background" width="400px" height="auto" style="position: absolute; z-index: -1;">
+    <img id="face-bottom-right" src="face-bottom-right.jpg" alt="Background" width="400px" height="auto" style="position: absolute; z-index: -1;">
     
+    <div id="welcome" >
+        <div id="welcomeheader"></div>
+        <h1>Welcome</h1>
+    </div>
+ <!-- Draggable DIV -->
+
+    <div id="mydiv"  >
+        <div id="mydivheader">Click here to move</div>
+        <img id="selfie-image" src="selfie.jpg" alt="Selfie" width="415px">
+    </div>
 </body>
 </html>

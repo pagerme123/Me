@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+#face-top-left {
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+}
+
+#face-bottom-right {
+    z-index: -1;
+    bottom: 0%;
+    right: 0%;
+}
+
+@font-face {
+    font-family: Dracutaz;
+    src: url(Dracutaz.otf);
+}
+
+
+
+.draggable { 
+
+    position: absolute;
+    cursor: grab;
+}
+
+#selfie-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    background-color: rgb(0, 0, 143);
+    border: #F9FFFE groove 8px;
+    margin: 200px; /* Remove right for clarity */
+}
+
+#selfie-image {
+    width: 400px;
+    height: auto;
+}
+
+h1 {
+    color: #000000;
+    font-family: Dracutaz;
+    text-align: center;
+    font-size: 50px;
+}
+#welcome {
+    padding: 10px;
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 10px groove #d3d3d3;
+    text-align: center;
+    
+}
+#welcomeheader{
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 10px groove #d3d3d3;
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
