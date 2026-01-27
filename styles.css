@@ -19,8 +19,15 @@ body {
     src: url(Dracutaz.otf);
 }
 #window{
-background-color: whitesmoke;
+    margin: auto;
+    border-style: groove;
+    border-radius: 4px;
+    width: 400px;
+    background-color: whitesmoke;
 }
 #windowbar{
-
+background-color: blueviolet;
+margin: auto;
+width: 400px;
+height: 30px;
 }
