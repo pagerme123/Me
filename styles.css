@@ -1,0 +1,130 @@
+/*
+ NO its NOT AI
+ i just cant remeber shit without comments 
+ you fucking cuck 
+ (cucking is valid tho 
+ and i dont kink shame 
+ so more like your a cunt 
+ yea fucking cunt
+ fuck you,
+ you slutty little imbred cunt 
+ yea
+ that sounds about right.) 
+*/
+
+body {
+    background-color: black;
+    background-image: url(starsbackdrop.gif);
+    margin: 0;
+    padding: o;
+}
+
+#face-top-left {
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+    position: sticky;
+}
+
+#face-bottom-right {
+    z-index: -1;
+    bottom: 0%;
+    right: 0%;
+    position: sticky;
+}
+
+
+/*fonts*/
+@font-face {
+    font-family: impact;
+    src: url(impact.ttf);
+}
+@font-face {
+    font-family: kiwisoda;
+    src: url(KiwiSoda.ttf);
+}
+
+/*the main window*/
+
+#window{
+    margin: auto;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    width: 700px;
+    background-color: #A39696;
+    background-image: url(background.gif);
+    height: 700px;
+}
+
+#windowbar{
+position: absolute;
+background-color: #5d466e;
+background-image: url(night.gif);
+border-bottom-style: ridge;
+border-bottom-color: whitesmoke;
+margin: 0;
+height: fit-content;
+width: 700px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+font-size: large;
+}
+
+/*selfie*/
+
+#selfie{
+    border: whitesmoke;
+    border-style: ridge;
+    border-radius: 4px;
+    border-width: 5px;
+    position: relative;
+    margin-top: 65px;
+    right: 5px;
+}
+
+
+#selfie-div{
+    border-color: whitesmoke;
+    border-style: ridge;
+    background-color: #aba9b7;
+    background-image: url(checherd.png);
+    
+    padding: 10px;
+    margin: 5px;
+    height: 660px;
+     
+
+}
+
+#likebutton{
+    position: absolute;
+    left: 315px;
+    bottom: 200px;
+}
+
+#selfie-div-text{
+    position: absolute;
+    border-color: whitesmoke;
+    border-style: ridge;
+    border-width: 5px;
+    background-color: whitesmoke;
+    padding: 5px;
+    font-family: kiwisoda;
+    font-size: large;
+    width: 290px;
+    top: 350px;
+
+}
+
+#sidebar{
+    position: relative;
+    border-color: whitesmoke;
+    border-style: ridge;
+    background-color: whitesmoke;
+    
+    width: 300px;
+    height: 500px;
+    left: 340px;
+    bottom: 239px;
+}
