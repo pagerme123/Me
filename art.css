@@ -10,13 +10,9 @@ h2{
     color: rgb(92, 142, 187);
     font-family: KiwiSoda;
 }
-#home{
-    border-radius: 30%;
-    background-image: url(checherd.png);
-    width: fit-content;
-    height: fit-content;
-    
-}
+
+   
+
 #mainframe{
     background-image: url(background.gif);
     margin: auto;
