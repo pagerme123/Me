@@ -1,0 +1,16 @@
+name: Proxmox Deploy
+on:
+  push:
+    branches: [ main ]
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Sync Files to Nginx
+        run: |
+          # This copies your repo files into the web folder
+          # -a (archive), -v (verbose), --delete (removes old files not in git)
+          rsync -av --delete ./ /var/www/html/ --exclude .git --exclude .github
