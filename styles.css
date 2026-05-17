@@ -168,3 +168,15 @@ font-size: large;
     align-items: center;
     gap: 10px;
 }
+#window2slugshrineshowmore{
+    border-color: whitesmoke;
+    border-style: ridge;
+    border-width: 5px;
+    background-color: whitesmoke;
+    padding: 5px;
+    font-family: kiwisoda;
+    font-size: large;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
