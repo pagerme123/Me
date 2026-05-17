@@ -23,16 +23,8 @@ body {
     z-index: -1;
     top: 0%;
     left: 0%;
-    position: sticky;
+    position: absolute;
 }
-
-#face-bottom-right {
-    z-index: -1;
-    bottom: 0%;
-    right: 0%;
-    position: sticky;
-}
-
 
 /*fonts*/
 @font-face {
@@ -127,4 +119,52 @@ font-size: large;
     height: 570px;
     left: 340px;
     bottom: 239px;
+}
+#window2{
+        padding-top: 30px;
+        margin: auto;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    width: 700px;
+    background-color: #A39696;
+    background-image: url(background.gif);
+    height: 700px;
+}
+#windowbrake{
+    height: 20px;
+
+}
+#window2text{
+    border-color: whitesmoke;
+    border-style: ridge;
+    border-width: 5px;
+    background-color: whitesmoke;
+    padding: 5px;
+    font-family: kiwisoda;
+    font-size: large;
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 5px; 
+}
+#window2Background{
+    border-color: whitesmoke;
+    border-style: ridge;
+    border-width: 5px;
+    background-image: url(background\ tile\ red.png);
+    height: fit-content;
+    width: 670px;
+    margin: auto;
+    padding: 10px;
+}
+#hov:hover{
+    box-shadow: 0 0 5px 4px rgba(0, 140, 186, 0.5);
+}
+#window2slugshrine{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
 }
