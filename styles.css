@@ -129,7 +129,7 @@ font-size: large;
     width: 700px;
     background-color: #A39696;
     background-image: url(background.gif);
-    height: 700px;
+    
 }
 #windowbrake{
     height: 20px;
@@ -179,4 +179,95 @@ font-size: large;
     width: 300px;
     margin: auto;
     text-align: center;
+}
+
+#window3{
+        padding-top: 30px;
+        margin: auto;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    width: 700px;
+    background-color: #A39696;
+    background-image: url(background.gif);
+    
+}
+#window3background{
+        padding: 20px;
+        padding-top: 30px;
+        margin: auto;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    width: 600px;
+    background-color: #A39696;
+    background-image: url(background\ tile\ red.png);
+    background-repeat: repeat;
+    height: 700px;
+}
+@font-face {
+    font-family: minecraftregular;
+    src: url(MinecraftRegular.otf);
+}
+@font-face{
+    font-family: mincraftbold;
+    src: url(MinecraftBold.otf);
+}
+
+
+#window3mincrafttext{
+    h2{
+        text-align: center;
+    }
+    p{
+        padding: 10px;
+        background-color: whitesmoke;
+        opacity: 50%;
+    }
+
+    width: 418px;
+    height: 180px;
+    background-repeat: no-repeat;
+    margin : auto;
+    border-color: whitesmoke;
+    border-style: ridge;
+    border-radius: 5px;
+    background-image: url(original-screenshot-of-herobrine-in-minecraft.jpg);
+    background-size: contain; 
+    background-color: #A39696;
+    padding: 30px;
+    font-size: 20px;
+    font-family: MinecraftRegular;
+}
+#window3mincraftseeds{
+    margin-top: 20px;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    border-style: ridge;
+    background-image: url(original-windows-minecraft.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 275px;
+    background-color: #A39696;
+    image-rendering: pixelated;
+    font-family: MinecraftRegular;
+    padding: 30px;
+    h2{
+    text-align: center;
+    margin: 10px;
+    margin-top: 0px;
+    }
+    p{
+        padding: 10px;
+        margin-top: 0px;
+        font-size: 15px;
+        background-color: whitesmoke;
+        opacity: 50%;
+    }
+}
+#window3mincraftseedsseed1{
+    h2{
+        font-size:20px ;
+    }
+    width: 170px;
 }
